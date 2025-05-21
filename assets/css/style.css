@@ -1,0 +1,13 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+h1{
+    color: rgba(14, 57, 90, 0.7);
+    /* color: #e5e7eb; */
+}
+img{
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+}

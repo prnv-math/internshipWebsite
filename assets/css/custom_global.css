@@ -1,0 +1,133 @@
+/*title block*/
+.mt-100vh {
+  margin-top: 51vh;
+}
+
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+.hero-content {
+  z-index: 2;
+  font-family: 'Rubik',sans-serif;
+    color: #e5e7eb;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3); 
+  text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .hero-content h1 { font-size: 2.5rem !important; }
+  .hero-content .display-4 { font-size: 1.5rem !important; }
+  .hero-content .display-5 { font-size: 1.2rem !important; }
+}
+
+/* container styles */
+.left-shifted-fluid-container {
+  width: 100%;
+  padding-right: 1rem;  
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
+@media (min-width: 768px) {
+  .left-shifted-fluid-container {
+    padding-right: 3rem;  
+    padding-left: 3rem;
+  }
+}
+/*nav styling*/
+.breadcrumb {
+  padding: 0.5rem 0;
+  margin-bottom: 0;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: rgba(255, 255, 255, 0.75);
+  content: "/";
+}
+
+.breadcrumb-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: underline;
+}
+.logo-section
+{
+  /* justify-content: space-between; */
+  padding: 10px 0;
+  background-color: #f8f9fa;
+}
+
+.navbar-colorful{
+font-family: 'Lato', sans-serif;
+  background: transparent !important;
+}
+.navbar-colorful .navbar-nav .nav-link {
+  color: #ffffff; 
+  padding: 0.5rem 1rem;
+}
+
+.navbar-colorful .navbar-nav .nav-link:hover {
+  color: #f8f9fa; 
+  text-decoration: underline;
+}
+
+.navbar-colorful .breadcrumb {
+  font-family: monospace;
+  margin-bottom: 0;
+}
+
+.navbar-colorful .breadcrumb-item a {
+  color: #ffffff;
+}
+
+.navbar-colorful .breadcrumb-item.active {
+  color: #d1d1d1; /* Gray for inactive items */
+}
+#mainNavbar {
+  transition: background 0.4s ease, padding 0.3s ease !important;
+}
+
+#mainNavbar.scrolled {
+  background-color: #607693 !important;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+#mainNavbar:not(.scrolled) .nav-link {
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.brand-logo-img, 
+.add-logo-img {
+  display: inline-block;
+  padding: 0px 10px;
+  height: 100px;
+}
+
+.brand-logo-img img,
+.add-logo-img img {
+  height: 100%;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.add-logo-img {
+  float: right;
+}
+
+@media (max-width: 767.98px) {
+  .brand-logo-img, 
+  .add-logo-img {
+    padding: 5px;
+    height: 50px;
+  }
+  
+  .add-logo-img {
+    float: none;
+    text-align: center;
+  }
+}
