@@ -1,3 +1,7 @@
+:root {
+  --coe-primary: rgba(11, 41, 65, 0.7);;
+  --coe-secondary: #607693;
+}
 /*title block*/
 .mt-100vh {
   margin-top: 51vh;
@@ -8,15 +12,13 @@
 }
 .hero-content {
   z-index: 2;
-  font-family: 'Rubik',sans-serif;
+  font-family: 'Poppins',sans-serif;
     color: #e5e7eb;
     text-shadow: 0 2px 4px rgba(0,0,0,0.3); 
   text-transform: uppercase;
 }
 @media (max-width: 768px) {
-  .hero-content h1 { font-size: 2.5rem !important; }
-  .hero-content .display-4 { font-size: 1.5rem !important; }
-  .hero-content .display-5 { font-size: 1.2rem !important; }
+  .hero-content .hsub { font-size: 1.5rem !important;}
 }
 
 /* container styles */
@@ -65,6 +67,7 @@
 font-family: 'Lato', sans-serif;
   background: transparent !important;
 }
+
 .navbar-colorful .navbar-nav .nav-link {
   color: #ffffff; 
   padding: 0.5rem 1rem;
@@ -87,6 +90,19 @@ font-family: 'Lato', sans-serif;
 .navbar-colorful .breadcrumb-item.active {
   color: #d1d1d1; /* Gray for inactive items */
 }
+@media (max-width: 991.98px) { /* bootstrap lg breakpoint */
+  #navbarNav {
+    position: absolute;
+    top: 130%;
+    right: 1%;
+    background-color: #607693; 
+    z-index: 999;
+    width: max-content;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+  }
+}
+
 #mainNavbar {
   transition: background 0.4s ease, padding 0.3s ease !important;
 }
@@ -110,16 +126,25 @@ font-family: 'Lato', sans-serif;
 .brand-logo-img img,
 .add-logo-img img {
   height: 100%;
-  width: auto;
-  max-width: 100%;
   object-fit: contain;
 }
 
 .add-logo-img {
   float: right;
 }
+@media  (max-width : 767px) {
+  .brand-logo-img, 
+  .add-logo-img {
+    padding: 4px;
+    height: 56px;
+  }
+  .add-logo-img {
+    float: none;
+    text-align: center;
+  }
+}
 
-@media (max-width: 767.98px) {
+@media (max-width: 368px) {
   .brand-logo-img, 
   .add-logo-img {
     padding: 5px;

@@ -1,13 +1,22 @@
 body{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
-h1{
-    color: rgba(14, 57, 90, 0.7);
-    /* color: #e5e7eb; */
+p{
+line-height: 1.8 !important;
+}
+h1, h2, span{
+    color: var(--coe-primary);
+    font-family: 'Inter', cursive;
 }
 img{
     transition-delay: .1s;
     transition-timing-function: ease-in-out;
     transition-duration: .7s;
     transition-property: all;
+}
+a, a:hover, a:active {
+    text-decoration: none;
+    outline: none;
+    border: none;
+
 }

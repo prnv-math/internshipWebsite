@@ -1,0 +1,65 @@
+.project-1-sec h1{
+    margin-top: 3.5rem;
+    font-size: 48px;
+}
+.project-1-sec p{
+    font-size: 20px;
+    color: #333;
+}
+.project-card-section{
+    padding: 44px 0 44px 0;
+}
+.project-card{
+    border: 1px solid #0000001c;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px 0px hsla(242, 100%, 12%, 0.09);
+}
+.project-card h3{
+    font-size: 20px;
+    color: var(--coe-primary);
+    margin-bottom: 0.7rem;
+}
+.project-card .project-list{
+    list-style: none;
+    padding: 0;
+}
+.project-card .project-list li{
+    display: flex;
+    align-items: flex-start;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.project-card .project-list  i {
+    width: 1.5em;             
+    margin-right: 0.5em;  
+    margin-top: 0.2em;       
+    flex-shrink: 0;
+}
+.partner-card-section{
+    margin-top: 1.7rem;
+}
+.partner-card{
+    border: 1px solid #0000001c;
+    padding: 4px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 30px 0px hsla(242, 100%, 12%, 0.09);
+}
+.partner-card img{
+    max-width: 100%;
+    height: auto;
+    transition-delay: .1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: .7s;
+    transition-property: all;
+    padding: 12px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.partner-card h4 , .partner-card p{
+    text-align: center;
+}

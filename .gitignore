@@ -1,0 +1,24 @@
+# Assets - ignore entire images folder
+assets/images/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
+*.temp
+temp/
+tmp/
+
+#other
+assets/images/coe-ai-logo.png

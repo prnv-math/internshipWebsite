@@ -7,6 +7,7 @@
     <title>COE-AI | NITC</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
@@ -46,7 +47,7 @@
 
     <!-- ======= Navbar ======= -->
     <nav class="navbar navbar-expand-lg navbar-colorful sticky-top" id="mainNavbar">
-        <div class="left-shifted-fluid-container d-flex flex-nowrap">
+        <div class="container-fluid">
 
             <div class="d-flex align-items-center me-auto">
                 <ol class="breadcrumb mb-0">
@@ -56,15 +57,15 @@
                 </ol>
             </div>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto dropdown-menu-lg-start">
                     <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
                     <li class="nav-item"><a class="nav-link" href="people.html">People</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Careers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="careers.html">Jobs</a></li>
                 </ul>
             </div>
         </div>
@@ -78,11 +79,11 @@
 
         <div class="container h-100 d-flex flex-column justify-content-center text-white">
             <div class="hero-content text-center">
-                <p class="text-left mb-2" style="font-size: 2.2rem; letter-spacing: 0.5px;">Centre of Excellence - A.I
+                <p class="hsub mb-2" style="font-size: 2.2rem; letter-spacing: 0.5px;">Centre of Excellence - AI
                 </p>
-                <p class="text-left my-3" style="font-size: 4rem; font-weight: 600; letter-spacing: 0.8px;">The People
+                <p class="my-3" style="font-size: 4rem; font-weight: 600; letter-spacing: 0.8px;">The People
                 </p>
-                <p class="text-right mt-4" style="font-size: 1.6rem; letter-spacing: 0.5px;">And the personnel</p>
+                <p class="hsub mt-4" style="font-size: 1.6rem; letter-spacing: 0.5px;">And the personnel</p>
             </div>
         </div>
     </div>
@@ -90,7 +91,7 @@
     <!-- ======= Main Content ======= -->
     <div class="container-fluid mt-100vh bg-white position-relative"
         style="padding-top: 0.5rem;min-height: 100vh; z-index: 1;">
-        <div class="left-shifted-fluid-container my-4 position-relative bg-white" style="z-index: 10;">
+        <div class="container-fluid position-relative bg-white" style="z-index: 10;">
             <!-- equivalent to : <main class="container-fluid px-md-5 my-4">  -->
 
             <section class=" peoplesec bg-light rounded">
@@ -110,20 +111,24 @@
                                 <div class="img-section">
                                     <div class="peopleimg">
                                         <div class="peopleimg">
-                                            <img src="https://nitc.ac.in/imgserver/uploads/attachments/pcm__e0d4c497-2ca7-47d7-a349-66ef29801fd3_0.png"
-                                                alt="Dr. Madhu Kumar S. D" />
+                                            <img src="assets/images/people/Madhu sir.jpg" alt="Dr. Madhu"
+                                            alt="Dr. Madhu Kumar S. D" />
                                         </div>
                                     </div>
-                                 
+
                                 </div>
                                 <div class="people-card_inner">
                                     <div class="title-section">
                                         <h5 class="card-title fw-semibold mb-1">Dr. Madhu Kumar S. D</h5>
-                                        <p class="card-text text-muted small mb-3">Professor, CSED</p>
-                                        <a href="https://nitc.ac.in/department/computer-science-amp-engineering/faculty-and-staff/faculty/a1ded5c9-7e9e-427f-b3cf-32d2fcce473c"
-                                            class="btn btn-sm rounded-pill px-4 btn-primary">
-                                            <i class="bi bi-person-circle me-1"></i> View Profile
-                                        </a>
+                                        <p class="card-text text-muted small mb-3">Professor, CSED, NITC</p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn">
+                                                <a href="https://nitc.ac.in/department/computer-science-amp-engineering/faculty-and-staff/faculty/a1ded5c9-7e9e-427f-b3cf-32d2fcce473c"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -146,11 +151,17 @@
                                 <div class="people-card_inner">
                                     <div class="title-section">
                                         <h5 class="card-title fw-semibold mb-1">Dr.Chithra K</h5>
-                                        <p class="card-text text-muted small mb-3">---------</p>
-                                        <a href="https://nitc.ac.in/department/computer-science-amp-engineering/faculty-and-staff/faculty/a1ded5c9-7e9e-427f-b3cf-32d2fcce473c"
-                                            class="btn btn-sm rounded-pill px-4 btn-primary">
-                                            <i class="bi bi-person-circle me-1"></i> View Profile
-                                        </a>
+                                        <p class="card-text text-muted small mb-3">Architecture and Planning
+
+                                        </p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn">
+                                                <a href="https://nitc.ac.in/department/department-of-architecture-and-planning/faculty-and-staff/faculty/b0b268f4-d5d3-4b84-b01d-af35122d60dd"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -160,17 +171,22 @@
                             <div class="people-card">
                                 <div class="img-section">
                                     <div class="peopleimg">
-                                        <img src="https://nitc.ac.in/imgserver/uploads/attachments/pcm__acca1e23-6b5b-4c05-913a-5eb36085779e_0.png" alt="Yet to add" />
+                                        <img src="assets/images/people/Dr Gopakumar G.png" alt="Yet to add" />
                                     </div>
                                 </div>
                                 <div class="people-card_inner">
                                     <div class="title-section">
                                         <h5 class="card-title fw-semibold mb-1">Dr Gopakumar G</h5>
-                                        <p class="card-text text-muted small mb-3">----------</p>
-                                        <a href="https://nitc.ac.in/department/computer-science-amp-engineering/faculty-and-staff/faculty/a1ded5c9-7e9e-427f-b3cf-32d2fcce473c"
-                                            class="btn btn-sm rounded-pill px-4 btn-primary">
-                                            <i class="bi bi-person-circle me-1"></i> View Profile
-                                        </a>
+                                        <p class="card-text text-muted small mb-3">Computer Science & Engineering
+                                        </p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn">
+                                                <a href="https://nitc.ac.in/department/computer-science-amp-engineering/faculty-and-staff/faculty/e7e63d04-f8f0-45ce-8c8a-82685054cd02"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -180,17 +196,23 @@
                             <div class="people-card">
                                 <div class="img-section">
                                     <div class="peopleimg">
-                                        <img src="https://nitc.ac.in/imgserver/uploads/attachments/pcm__f1e96008-4181-4d3e-9494-2adafe8178f4_0.png" alt="image loading" />
+                                        <img src="assets/images/people/Dr. Prateek Negi.jfif" alt="image loading" />
                                     </div>
                                 </div>
                                 <div class="people-card_inner">
                                     <div class="title-section">
                                         <h5 class="card-title fw-semibold mb-1">Dr. Prateek Negi</h5>
-                                        <p class="card-text text-muted small mb-3">----------</p>
-                                        <a href="https://nitc.ac.in/department/computer-science-amp-engineering/faculty-and-staff/faculty/a1ded5c9-7e9e-427f-b3cf-32d2fcce473c"
-                                            class="btn btn-sm rounded-pill px-4 btn-primary">
-                                            <i class="bi bi-person-circle me-1"></i> View Profile
-                                        </a>
+                                        <p class="card-text text-muted small mb-3">Civil Engineering
+
+                                        </p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn">
+                                                <a href="https://nitc.ac.in/department/civil-engineering/faculty-and-staff/faculty/c23c48a9-4464-43f5-b8e6-271bd1ededae"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -208,61 +230,577 @@
                             <div class="people-card">
                                 <div class="img-section">
                                     <div class="peopleimg">
-                                        <img src="https://nitc.ac.in/imgserver/uploads/attachments/pcm__3d5b938a-3fc9-4147-b9e1-c4247937c245_0.png" alt="" />
+                                        <img src="assets/images/people/Dr Arjun anil kumar.jfif" alt="" />
                                     </div>
                                 </div>
                                 <div class="people-card_inner">
                                     <div class="title-section">
                                         <h5 class="card-title fw-semibold mb-1">Dr. Arjun Anil Kumar</h5>
-                                        <p class="card-text text-muted small mb-3">----------</p>
-                                        <a href="https://nitc.ac.in/department/computer-science-amp-engineering/faculty-and-staff/faculty/a1ded5c9-7e9e-427f-b3cf-32d2fcce473c"
-                                            class="btn btn-sm rounded-pill px-4 btn-primary">
-                                            <i class="bi bi-person-circle me-1"></i> View Profile
-                                        </a>
+                                        <p class="card-text text-muted small mb-3">Management Studies
+
+                                        </p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn">
+                                                <a href="https://nitc.ac.in/department/management-studies/faculty-and-staff/faculty/581d60b3-aa0a-40ff-bfa6-748d34079c71"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/Dr.Arun Raj Kumar P.jfif" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Dr. Arun Raj Kumar</h5>
+                                        <p class="card-text text-muted small mb-3">Computer Science & Engineering</p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn"><a
+                                                    href="https://nitc.ac.in/department/computer-science-amp-engineering/faculty-and-staff/faculty/c7010e4a-dccb-4997-b1c1-919489cf7585"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-4">
                             <div class="people-card">
                                 <div class="img-section">
                                     <div class="peopleimg">
-                                        <img src="https://nitc.ac.in/imgserver/uploads/attachments/pcm__1725495b-dc5c-4c2c-a4cc-d75124d56f43_0.png" alt="Yet to add" />
+                                        <img src="assets/images/people/Dr Ashutosh Mishra.jfif" alt="Yet to add" />
                                     </div>
                                 </div>
                                 <div class="people-card_inner">
                                     <div class="title-section">
-                                        <h5 class="card-title fw-semibold mb-1">Dr. Munavar Firoz</h5>
-                                        <p class="card-text text-muted small mb-3">----------</p>
-                                        <a href="https://nitc.ac.in/department/computer-science-amp-engineering/faculty-and-staff/faculty/a1ded5c9-7e9e-427f-b3cf-32d2fcce473c"
-                                            class="btn btn-sm rounded-pill px-4 btn-primary">
-                                            <i class="bi bi-person-circle me-1"></i> View Profile
-                                        </a>
+                                        <h5 class="card-title fw-semibold mb-1">Dr. Ashutosh Mishra</h5>
+                                        <p class="card-text text-muted small mb-3">ECED</p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn">
+                                                <a href="https://nitc.ac.in/multidiscilplinary-centres/centre-for-industry---institutional-relations-ciir/faculty-and-staff/faculty/f95a8ba2-4517-40ed-88f6-88ca273820c1"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/Dr Athkuri sai saketha chandra.jfif"
+                                            alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Dr Athkuri Sai Saketha Chandra</h5>
+                                        <p class="card-text text-muted small mb-3">Mechanical Engineering</p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn"><a
+                                                    href="https://nitc.ac.in/department/mechanical-engineering/faculty-and-staff/faculty/13096c7a-5b9f-4b56-8d0d-a6204793944b"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-md-4">
                             <div class="people-card">
                                 <div class="img-section">
                                     <div class="peopleimg">
-                                        <img src="https://nitc.ac.in/imgserver/uploads/attachments/pcm__c1721696-aef8-4476-98f0-5480387e1c09_0.png" alt="Yet to add" />
+                                        <img src="assets/images/people/Dr. B Umamaheswara Sharma.png"
+                                            alt="Yet to add" />
                                     </div>
                                 </div>
                                 <div class="people-card_inner">
                                     <div class="title-section">
-                                        <h5 class="card-title fw-semibold mb-1">Dr Bimal P</h5>
-                                        <p class="card-text text-muted small mb-3">----------</p>
-                                        <a href="https://nitc.ac.in/department/computer-science-amp-engineering/faculty-and-staff/faculty/a1ded5c9-7e9e-427f-b3cf-32d2fcce473c"
-                                            class="btn btn-sm rounded-pill px-4 btn-primary">
-                                            <i class="bi bi-person-circle me-1"></i> View Profile
-                                        </a>
+                                        <h5 class="card-title fw-semibold mb-1">Dr. B Umamaheswara Sharma</h5>
+                                        <p class="card-text text-muted small mb-3">Computer Science & Engineering</p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn"><a
+                                                    href="https://nitc.ac.in/department/computer-science-amp-engineering/faculty-and-staff/faculty/d6587a73-3d4f-44d5-80d0-4852f2050608"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a></div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/Dr. Bimal P.jfif" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Dr. Bimal P</h5>
+                                        <p class="card-text text-muted small mb-3">Architecture and Planning
 
+                                        </p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn">
+                                                <a href="https://nitc.ac.in/multidiscilplinary-centres/centre-of-excellence-in-logistics-and-supply-chain-management/faculty-and-staff/faculty/41891089-4cfb-432e-a55a-997876765038"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/Dr. Harikrishna M.jfif" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Dr Harikrishna M</h5>
+                                        <p class="card-text text-muted small mb-3">Associate Professor, CED, NIT
+
+                                        </p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn">
+                                                <a href="https://nitc.ac.in/thematic-centres/transportation-research/faculty-and-staff/faculty/905639bd-a01e-4013-b386-52e0c7045a3a"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/Dr Jay Prakash.jfif" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Dr. Jay Prakash</h5>
+                                        <p class="card-text text-muted small mb-3">Assistant Professor, CSED</p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn"><a
+                                                    href="https://nitc.ac.in/department/computer-science-amp-engineering/faculty-and-staff/faculty/b011704c-9c23-4c7b-9fba-faf7334bec58"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/Dr.Jayaraj PB.png" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Dr. Jayaraj PB</h5>
+                                        <p class="card-text text-muted small mb-3">Associate Professor, CSED </p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn"><a
+                                                    href="https://nitc.ac.in/department/computer-science-amp-engineering/faculty-and-staff/faculty/3acaadf0-cabc-4fdb-a306-4387eb9d6010"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/Dr Jeetu s babu.jfif" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Dr. Jeetu S Babu</h5>
+                                        <p class="card-text text-muted small mb-3">Materials Science & Engineering </p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn"><a
+                                                    href="https://nitc.ac.in/schools/materials-science-and-engineering/faculty-and-staff/faculty/58083299-c120-4c4f-a068-60c08a363241"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/Dr Lijiya A.jfif" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Dr Lijiya A</h5>
+                                        <p class="card-text text-muted small mb-3">Associate Professor, CSED </p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn"> <a
+                                                    href="https://nitc.ac.in/department/computer-science-amp-engineering/faculty-and-staff/faculty/ae63cdcc-ed80-455a-80d2-73b91420d290"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/Dr Munavar fairooz c.jfif" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Dr. Munavar Fairooz</h5>
+                                        <p class="card-text text-muted small mb-3">Civil Engineering
+
+                                        </p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn">
+                                                <a href="https://nitc.ac.in/department/civil-engineering/faculty-and-staff/faculty/8ff967fc-9507-421f-ac23-907143cf0ad8"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/Dr Nimal Madhu M.jfif" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Dr. Nimal Madhu</h5>
+                                        <p class="card-text text-muted small mb-3">Electrical Engineering</p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn"> <a
+                                                    href="https://nitc.ac.in/department/electrical-engineering/faculty-and-staff/faculty/3e57e074-cb47-4359-90c6-bd54e3c2882d"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/Dr P N bala subramanian.jfif" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Dr. P N Bala Subramanian</h5>
+                                        <p class="card-text text-muted small mb-3">Asst. Professor , Physics</p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn"><a
+                                                    href="https://nitc.ac.in/department/physics/faculty-and-staff/faculty/e761fba3-946a-442a-902a-dc442819e6d4"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/Dr Prabu M.jfif" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Dr. Prabu Mohandas</h5>
+                                        <p class="card-text text-muted small mb-3">Computer Science & Engineering
+                                        </p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn">
+                                                <a href="https://nitc.ac.in/department/computer-science-amp-engineering/faculty-and-staff/faculty/cec16e67-9964-4fe0-924d-11098ec3c699"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/Dr Saket Chandra.jfif" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Dr. Saket Chandra</h5>
+                                        <p class="card-text text-muted small mb-3">Bioscience and Engineering</p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn"><a
+                                                    href="https://nitc.ac.in/schools/bioscience-and-engineering/faculty-and-staff/faculty/79c6c986-1fc5-4d96-94f5-fcd301e2658a"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/Dr Sanil Kumar.jfif" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Dr. Sanil Kumar</h5>
+                                        <p class="card-text text-muted small mb-3">Architecture and Planning
+
+                                        </p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn">
+                                                <a href="https://nitc.ac.in/department/department-of-architecture-and-planning/faculty-and-staff/faculty/929e4a5f-695d-4fc8-87f8-31fed976db21"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/Dr Sanjay M.jfif" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Dr. Sanjay M</h5>
+                                        <p class="card-text text-muted small mb-3">Electrical Engineering</p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn"> <a
+                                                    href="https://nitc.ac.in/department/electrical-engineering/faculty-and-staff/faculty/ef6a3fb6-7d73-4ed1-8714-f395c7a0bf18"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/Dr.Sathyananda Panda.jfif" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Dr Sathyananda Panda</h5>
+                                        <p class="card-text text-muted small mb-3">Professor, Mathematics</p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn"><a
+                                                    href="https://nitc.ac.in/department/mathematics/faculty-and-staff/faculty/5f989998-8840-4ea7-a944-439586932f5c"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/Dr Shihabudheen KV.jfif" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Dr Shihabudheen KV</h5>
+                                        <p class="card-text text-muted small mb-3">Electrical Engineering
+                                        </p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn">
+                                                <a href="https://nitc.ac.in/department/electrical-engineering/faculty-and-staff/faculty/f3b879d8-9c5b-4a63-9f0d-3a7b5511b3d9"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/Dr Sreekanth VK.jfif" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Dr. Sreekanth V. K</h5>
+                                        <p class="card-text text-muted small mb-3">Management Studies
+
+                                        </p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn">
+                                                <a href="https://nitc.ac.in/department/management-studies/faculty-and-staff/faculty/bb03c167-e2b9-4466-b827-210da8275be4"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/Dr Sudeep PV.jfif" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Dr. Sudeep PV</h5>
+                                        <p class="card-text text-muted small mb-3">Assistant Professor, ECED</p>
+                                        <div class="btn-box">
+                                            <div class="profile-btn"><a
+                                                    href="https://nitc.ac.in/department/electronics-amp-communication-engineering/faculty-and-staff/faculty/8142dcc1-3de8-40c4-a0c6-ef87b8c6753d"
+                                                    class="chat">
+                                                    <i class="bi bi-person-circle me-1"></i> View Profile
+                                                </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <h2 class="mono-header text-center">
+                            Interns
+                        </h2>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/interns/Aravind Ajay.jpg" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Aravind Ajay</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/interns/Jerin Yohannan.jpg" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Jerin Yohannan</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/interns/Hanna CT.jpg" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Hanna C T</h5>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
 
                     </div>
@@ -271,64 +809,178 @@
                             <div class="people-card">
                                 <div class="img-section">
                                     <div class="peopleimg">
-                                        <img src="assets\images\people\none.png" alt="Yet to add" />
+                                        <img src="assets/images/people/interns/Pranav  M.jpg" alt="Yet to add" />
                                     </div>
                                 </div>
                                 <div class="people-card_inner">
                                     <div class="title-section">
-                                        <h5 class="card-title fw-semibold mb-1">-------------</h5>
-                                        <p class="card-text text-muted small mb-3">----------</p>
-                                        <a href="https://nitc.ac.in/department/computer-science-amp-engineering/faculty-and-staff/faculty/a1ded5c9-7e9e-427f-b3cf-32d2fcce473c"
-                                            class="btn btn-sm rounded-pill px-4 btn-primary">
-                                            <i class="bi bi-person-circle me-1"></i> View Profile
-                                        </a>
+                                        <h5 class="card-title fw-semibold mb-1">Pranav M</h5>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <div class="col-md-4">
                             <div class="people-card">
                                 <div class="img-section">
                                     <div class="peopleimg">
-                                        <img src="assets\images\people\none.png" alt="Yet to add" />
+                                        <img src="assets/images/people/interns/SNEHAJA.jpg" alt="Yet to add" />
                                     </div>
                                 </div>
                                 <div class="people-card_inner">
                                     <div class="title-section">
-                                        <h5 class="card-title fw-semibold mb-1">-------------</h5>
-                                        <p class="card-text text-muted small mb-3">----------</p>
-                                        <a href="https://nitc.ac.in/department/computer-science-amp-engineering/faculty-and-staff/faculty/a1ded5c9-7e9e-427f-b3cf-32d2fcce473c"
-                                            class="btn btn-sm rounded-pill px-4 btn-primary">
-                                            <i class="bi bi-person-circle me-1"></i> View Profile
-                                        </a>
+                                        <h5 class="card-title fw-semibold mb-1">Snehaja</h5>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                         <div class="col-md-4">
                             <div class="people-card">
                                 <div class="img-section">
                                     <div class="peopleimg">
-                                        <img src="assets\images\people\none.png" alt="Yet to add" />
+                                        <img src="assets/images/people/interns/Vismaya Mariya Thomson.png" alt="Yet to add" />
                                     </div>
                                 </div>
                                 <div class="people-card_inner">
                                     <div class="title-section">
-                                        <h5 class="card-title fw-semibold mb-1">-------------</h5>
-                                        <p class="card-text text-muted small mb-3">----------</p>
-                                        <a href="https://nitc.ac.in/department/computer-science-amp-engineering/faculty-and-staff/faculty/a1ded5c9-7e9e-427f-b3cf-32d2fcce473c"
-                                            class="btn btn-sm rounded-pill px-4 btn-primary">
-                                            <i class="bi bi-person-circle me-1"></i> View Profile
-                                        </a>
+                                        <h5 class="card-title fw-semibold mb-1">Vismaya Maria Thomson</h5>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-
                     </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/interns/Aswani TP.png" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Aswani TP</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/interns/AMRITHA P.jpg" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Amritha P</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/interns/BRIGIT THOMAS.jpg" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Brigit Thomas</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/interns/DANIYA.jpg" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Daniya</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/interns/FABY SHERIN MK.jpeg" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Faby Sherin MK</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/interns/ISHA HUSSAIN.jpg" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Isha Hussian</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/interns/JUHANA SHERIN TM.png" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Juhana Sherin TM</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/interns/SHIFIN VINCENT.jpg" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Shifin Vincent</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="people-card">
+                                <div class="img-section">
+                                    <div class="peopleimg">
+                                        <img src="assets/images/people/interns/Tanzeel Bin Saud.jpg" alt="Yet to add" />
+                                    </div>
+                                </div>
+                                <div class="people-card_inner">
+                                    <div class="title-section">
+                                        <h5 class="card-title fw-semibold mb-1">Tanzeel Bin Saud</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </section>
 
@@ -336,17 +988,15 @@
 
         </div>
     </div>
-
     <!-- ======= Footer ======= -->
-    <footer class="bg-dark text-white py-4">
+    <footer class="bg-dark text-white py-3">
         <div class="container text-center">
             <p>&copy; 2025 COE-AI. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- Bootstrap JS (Popper.js included) -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Custom JS -->
     <script src="assets/js/script.js"></script>
 </body>
 

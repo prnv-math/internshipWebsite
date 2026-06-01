@@ -1,0 +1,274 @@
+a.fillingBtn {
+  color: #555;
+  font-family: 'Poppins', cursive;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  padding: 12px 25px;
+  border-radius: 0;
+  border: 2px solid #555;
+  transition: all 0.4s ease-out;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+a.fillingBtn:hover {
+  color: #fff;
+  border-color: #607693;
+  box-shadow: 0 0 0 30px #607693 inset;
+}
+
+@media (max-width: 767px) {
+  a.fillingBtn {
+    margin-bottom: 30px;
+    width: 200px;
+    max-width: 100%;
+    /* margin: 0 auto 15px;  => Centers the buttons in mobile somehow*/
+  }
+
+  a.fillingBtn:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.coe-ai-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.coe-ai-title {
+  display: flex;
+  align-items: center;
+}
+
+.coe-ai-title span {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 15px;
+  position: relative;
+  display: inline-block !important;
+}
+
+.coe-ai-title .coe-ai-icon {
+  color: rgba(11, 41, 65, 0.7);
+
+  font-size: 1.2em;
+}
+
+.coe-ai-subtext {
+  font-size: 14px;
+  color: #666;
+  /* margin-left: 30px;  */
+  margin-right: 5px;
+  margin-bottom: 15px;
+  margin-top: 6px;
+}
+
+
+@media (min-width: 768px) {
+  .coe-ai-subtext {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+}
+
+/* Button container */
+.buttons-container {
+  flex-shrink: 0;
+}
+
+/* Button group - strict horizontal/vertical */
+.button-group {
+  display: flex;
+  gap: 15px;
+}
+
+@media (max-width: 991.98px) {
+  .button-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+}
+
+.header-wrapper {
+  /* push the next section down a little */
+  /* margin-bottom: 20px; */
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  /* Large gap between text and buttons */
+}
+
+@media (min-width: 992px) {
+  .header-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 40px;
+  }
+}
+
+.coe-ai-header {
+  flex: 1;
+}
+
+.core-section {
+  padding-top: 80px;
+}
+.core-section p{
+    font-size: 20px;
+    color: #333;
+}
+
+.border-blue {
+  border-top-width: 4px;
+  box-sizing: border-box;
+  border: .15em solid var(--coe-secondary);
+  border-radius: 100vw;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.customizedtablist{
+  width: 25%;
+  min-width: 25%;
+}
+.customizedtablist li {
+  float: none;
+}
+
+.customizedtablist li a {
+  color: #555;
+  font-family: 'Poppins', cursive;
+  font-size: 64px;
+  font-weight: 700;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 12px 25px;
+  border-radius: 0 !important;
+  border: 2px solid #555;
+  transition: all 0.4s ease-out;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  z-index: 1;
+  margin: 0 10px 10px 0;
+
+}
+
+.customizedtablist li a:hover,
+.customizedtablist li.active a {
+
+  color: #fff;
+  border-color: var(--coe-secondary);
+  box-shadow: 0 0 0 60px var(--coe-secondary) inset;
+}
+
+.customizedtablist .nav-item .active {
+  background-color: var(--coe-secondary);
+
+}
+
+.col .tab-content {
+  color: #fff;
+  background-color: var(--coe-secondary);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 15px 15px 15px 20px;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 769px) {
+  .customizedtablist {
+    width: 100%;
+    display: block;
+  }
+
+  .customizedtablist li a {
+    padding: 10px 10px 9px;
+    margin: 0 0 12px;
+    font-size: 20px;
+  }
+
+  .col .tab-content {
+    font-size: 13px;
+    padding: 15px;
+    display: block;
+  }
+}
+
+
+/* NOT NEEDED
+.customizedtablist li a:before,
+.customizedtablist li a:after{
+  content: '';
+  background-color: #20978e;
+  height: 100%;
+  width: 50%;
+  transform: scale(0.1);
+  transform-origin: top left;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.4s ease 0s;
+} */
+/* .vertical-tab .nav-tabs li a:after{
+  transform-origin: top right;
+  left: auto;
+  right: 0;
+}===============================================
+   */
+.border-grey{
+  border-top-width: 4px;
+  box-sizing: border-box;
+  border: 2px solid #0000000f;
+  border-radius: 100vw;
+  margin-top: 7rem;
+  margin-bottom: 32px;
+}
+.news-section h1{
+  margin-top: 4rem;
+}
+.news-card{
+  /* width: 300px; */
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: white;
+  /* text-shadow: 1px 1px 2px black; */
+}
+.news-image {
+  background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5))
+  , 
+              url('../images/news/india-ai.png') center/cover no-repeat;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.4s ease;
+  z-index: 1;
+}
+
+.news-card:hover .news-image {
+  transform: scale(1.03);
+}.news-title {
+  position: relative;
+  z-index: 2;
+  padding: 1rem;
+  margin: 0;
+  text-shadow: 1px 1px 2px black;
+  letter-spacing: 0.01em;
+  font-family: 'Poppins', serif;
+  font-weight: 700;
+}
